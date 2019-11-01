@@ -66,3 +66,224 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+header a{
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 90%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+header a:hover{
+    color: lightslategray;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+header img{
+    margin-left:-35px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container img{
+    margin-bottom: 20px;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    background:teal;
+}
+
+.box2{
+    background:gold;
+}
+
+.box3{
+    background:cadetblue;
+}
+
+.box4{
+    background:coral;
+}
+
+.box5{
+    background:crimson;
+}
+
+.box6{
+    background:forestgreen;
+}
+
+.box7{
+    background:darkorchid;
+}
+
+.box8{
+    background:hotpink;
+}
+
+.box9{
+    background:indigo;
+}
+.box10{
+    background:dodgerblue;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+footer nav a:hover{
+    color: lightslategray;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#about, #worktogether{
+    width: 800px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+
+}
+
+#about{
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#aboutjumbo img{
+    margin-bottom: 15px;
+}
+
+#aboutcontainer{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aboutbox{
+    width: 370px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutbox img{
+    margin-bottom: 5px;
+}
+
+.learnmore{
+    width: 140px;
+    margin-top: 15px;
+    padding: 5px 15px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.learnmore:hover{
+    color:white;
+    background-color: black;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
